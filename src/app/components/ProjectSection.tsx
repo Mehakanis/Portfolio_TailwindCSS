@@ -69,8 +69,45 @@ const projectsData: Project[] = [
     gitUrl: "/",
     previewUrl: "/",
   },
-];
+  {
+    id: 7,
+    title: "Responsive E-Commerce Application",
+    description: "Next.js, tailwindCSS, Typescript",
+    image: "/images/Project/7.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/Mehakanis/Hackathon3.git",
+    previewUrl: "https://hackathon3-peach.vercel.app/product/vase-set"
+  },
 
+{
+    id: 8,
+    title: "Secure Data Encryption System",
+    description: "Python, Streamlit",
+    image: "/images/Project/8.png",
+    tag: ["All", "obile"],
+    gitUrl: "https://github.com/Mehakanis/Secure_Data_Encryption_system.git",
+    previewUrl: "https://secure-data-encryption-sys.streamlit.app"
+  },
+  {
+    id: 9,
+    title: "Pasword Strength Meter",
+    description: "Python, Streamlit",
+    image: "/images/Project/9.png",
+    tag: ["All", "Web", "Mobile"],
+    gitUrl: "https://github.com/Mehakanis/password-strength-meter.git",
+    previewUrl: "https://password-strength-meter373.streamlit.app"
+
+  },
+  {
+    id: 10,
+    title: "Unit Converter",
+    description: "Python, Streamlit",
+    image: "/images/Project/10.png",
+    tag: ["All", "Web", "Mobile"],
+    gitUrl: "https://github.com/Mehakanis/unit_converter",
+    previewUrl: "https://converterpy-afxtprdwuu3hhry7ftntvz.streamlit.app"
+  }
+];
 const ProjectsSection: React.FC = () => {
   const [tag, setTag] = useState<string>("All");
   const ref = useRef<HTMLUListElement>(null);
